@@ -7,7 +7,7 @@ jobs:
   name: My fist Action
   runs-on: ubuntu-latest
   steps: 
-  - uses: actions/checkout@1
+  - uses: actions/checkout@v1
   - uses: ./actions-a
     with:
       MY_NAME: Jan
